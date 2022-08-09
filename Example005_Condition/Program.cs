@@ -1,4 +1,5 @@
-﻿Console.Write("Ввидите имя пользовотеля ");
+﻿/*
+Console.Write("Ввидите имя пользовотеля ");
 string username = Console.ReadLine();
 
 if(username.ToLower()=="маша")
@@ -10,3 +11,4 @@ else
     Console.Write("Привет, ");
     Console.Write(username);
 }
+*/
