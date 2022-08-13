@@ -107,7 +107,7 @@ string Replace(string text, char oldValue, char newValue)
 string newText = Replace(text, ' ', '|');
 Console.WriteLine(newText);
 */
-
+/*
 int[] arr = { 1, 5, 4, 3, 2, 6, 7, 1, 1 };
 
 void PrintArray(int[]array)
@@ -138,3 +138,5 @@ void SelectioSort(int[]array)
 PrintArray(arr);
 SelectioSort(arr);
 PrintArray(arr);
+*/
+
