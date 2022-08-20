@@ -21,6 +21,13 @@ DirectoryInfo[] catalogs = catalog.GetDirectories();
         Console.WriteLine($"{indent}{catalogs[i].Name}");
         CatalogInfo(catalogs[i].FullName, indent + " ");
     }
+    FileInfo[] files = catalog.GetFiles(); 
+    
+        for (int i = 0; i < files.Length; i++)
+        {
+            Console.WriteLine($"{indent}{catalogs[i].Name}");
+        }
+    
 }
 string path = @"PS C:\Users\user\Desktop\C#\Example001_HelloConsole>"; 
 CatalogInfo(path);
